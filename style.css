@@ -410,10 +410,6 @@ nav {
 }
 
 
-
-
-
-
 /* Feature Section */
 .feature {
   background: #fff;
@@ -581,12 +577,12 @@ nav {
 /* Slider Wrapper */
 .slider-wrapper {
   overflow-x: auto;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
 }
 
 .slider-wrapper::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Opera */
+  display: none; 
 }
 
 .location-slider {
@@ -641,10 +637,10 @@ nav {
 /* Testimonial section  */
 .testimonials {
   max-width: 1000px;
-  margin: 20px auto 0 auto; /* Decreased top margin, removed bottom margin */
+  margin: 20px auto 0 auto; 
   overflow: hidden;
   position: relative;
-  padding: 10px 0 20px 0; /* Decreased top padding */
+  padding: 10px 0 20px 0; 
   text-align: center;
 }
 
@@ -653,7 +649,7 @@ nav {
   text-align: center;
   font-weight: 600;
   color: #222;
-  margin-bottom: 18px; /* Decreased margin below quote */
+  margin-bottom: 18px; 
   font-style: italic;
   font-family: 'Inter', sans-serif;
   position: relative;
@@ -731,8 +727,8 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center; 
-  gap: 40px;
-  max-width: 1200px;
+  gap: 100px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
